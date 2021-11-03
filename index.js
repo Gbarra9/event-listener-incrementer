@@ -9,10 +9,18 @@ let count = 0
 
 
 const addPlusEvent = () => {
+  // incrementButtonEl.addEventListener("click", () => {
+  //   count+=1
+  //   numberCounterEl.innerHTML = count
+  // })
   incrementButtonEl.addEventListener("click", plusOne)
 }
 
 const removePlusEvent = () => {
+  // incrementButtonEl.removeEventListener("click", () => {
+  //   count+=1
+  //   numberCounterEl.innerHTML = count
+  // })
   incrementButtonEl.removeEventListener("click", plusOne)
 }
 // Increment current count by one
